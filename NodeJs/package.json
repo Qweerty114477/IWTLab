@@ -1,0 +1,12 @@
+{
+  "name": "ravi",
+  "version": "1.0.0",
+  "description": "Its an amazing package",
+  "license": "ISC",
+  "author": "Ravi Raj",
+  "type": "commonjs",
+  "main": "Third.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
