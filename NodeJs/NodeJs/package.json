@@ -1,0 +1,19 @@
+{
+  "name": "raviraj",
+  "version": "1.0.0",
+  "description": "amazing package",
+  "license": "ISC",
+  "author": "Ravi Raj",
+  "type": "commonjs",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/cli": "^21.2.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,4 +1,4 @@
-//(function (exports,require,module,__filename,__dirname){
+(function (exports,require,module,__filename,__dirname){
 
     ravi ={
     name :"Ravi Raj",
@@ -9,4 +9,4 @@
 module.exports=ravi;
 console.log(exports,require,module,__filename,__dirname)
 
-//})
+})

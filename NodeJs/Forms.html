@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="submit.php" method="POST">
+
+    <!-- Name -->
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Password -->
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <!-- Course -->
+    <label>Course:</label><br>
+    <select name="course">
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+        <option value="bca">BCA</option>
+    </select><br><br>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby[]" value="sports"> Sports
+    <input type="checkbox" name="hobby[]" value="music"> Music<br><br>
+
+    <!-- Message -->
+    <label>Message:</label><br>
+    <textarea name="message"></textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
