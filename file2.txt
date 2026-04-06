@@ -1,0 +1,1 @@
+This is the date ,I have written in file2 through file module of nodejs using synchronously
