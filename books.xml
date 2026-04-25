@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+
+<books>
+    <book>
+        <title>Java Programming</title>
+        <author>James Gosling</author>
+        <edition>3rd</edition>
+        <price>500</price>
+    </book>
+
+    <!-- <book>
+        <title>Web Technology</title>
+        <author>Ramesh</author>
+        <edition>2nd</edition>
+        <price>350</price>
+    </book> -->
+
+    <book>
+        <title>Data Structures</title>
+        <author>Seymour Lipschutz</author>
+        <edition>1st</edition>
+        <price>400</price>
+    </book>
+</books>
